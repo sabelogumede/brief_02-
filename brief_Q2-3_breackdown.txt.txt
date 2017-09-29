@@ -1,0 +1,41 @@
+Brief no2
+This is my code breakdown for Question 2 and 3
+
+Question 2
+
+Generate a number between (1 - 6) and save the generated number.
+Ask the user to enter a number between (1 - 6) save the number entered by the user.
+Compare the two numbers, to see if the the number entered by the user is not the same as the number generated.
+If the number is not the same, print message number incorrect!
+Else print a message to congratulate the user.
+4. Ask If they want to try again? 
+If yes go back to “step 2”
+Else quit! 
+
+
+
+
+Question 3
+
+Ask the user to enter a key to start the program!
+After the key has been entered, print a message to inform the user that the program is running.
+While the program is running
+Ask the user if they want to enter a new client’s details?
+4. If they agree:
+ - Ask them to enter the client's details (name, contact number, their address and total number of dependent(s) )
+   Save the client's details on submit 
+if the client has more than one 
+ - alocate R20k
+  - And get the number of dependent and multy it by R5k
+  - Add both the amounts and save them as total cash to be received.
+- if they have one or less dependents 
+  - alocate R17k
+
+
+5. If the client does not wish to enter client's details, go to step 7!
+
+6. Else get the previous clients information and print out list
+or print message, you have not entered a client.
+7. Ask the use if they wish to close the program?
+If yes, close program!
+Else return to step 3

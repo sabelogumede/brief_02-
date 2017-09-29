@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question 3</title>
+
+	<script type="text/javascript">
+		//step 1
+		var key = prompt("please enter a Key to start the Program!");
+        //step 2
+		alert("Your program is now running!!");
+		//step 3
+        //i will put step 3 inside a while loop!
+        //prompt the user if they want to enter a new client?
+		var enterClient = confirm("Would you like to enter a new clients deatails?");
+        //step 4
+        //my for loop uses an 0-index as a couter, to prompt the user to enter the 4 client detail inputs
+        //user input values are saved in my clientDetails array
+        //4.1 clients list input is saved in the "clientsDetails" variable
+        var newClient = new Array(4);
+        for (var i = 1; i<=4; i++) {
+
+             switch (i) {
+             	case 1:
+             	var name = prompt("enter clients Name:","");
+             	 break;
+             	case 2:
+             	 var contact_number = prompt("enter clients Contact Number:","");
+             	 break;
+             	case 3:
+             	 var address = prompt("enter clients Address:","");
+             	 break;
+             	case 4:
+             	 var number_of_dependents = prompt("enter clients Total Number of Dependent(s):","");
+             	 break;
+             }  return newClient[4];//dose it make sence to return here?
+        }
+        //this is my object constructor
+        var ClientDetails = function(name, contact_number, address, number_of_dependents) {
+		  //Change this constructor
+		  this.name = sizwe;
+		  this.contact_number = 011-3459-922;
+		  this.address = Post; //it false if there is spaces between the words & if word and numbers mixed in one line in my address
+		  this.number_of_dependents = 0;
+        };
+		//This is my newClient list that is created on user input
+		var newClient = new ClientDetails(Sabelo, 0737511071, PoBox, 2);
+
+
+        //4.2 clients Dependents input is saved in the "numberofDep" variable
+        var numberOfDep = clientDetails[4];
+        // step 4.2
+        if (parseInt(numberOfDep) > 1) {
+  	     //alert("20,000");
+  	     var dependents = numberOfDep * 5000;
+  	     var totalCash = 20000 + dependents;
+
+         }else if (numberOfDep === 1) {
+         	//alert(typeOf(numberofDep));
+         	var dependents = numberOfDep * 5000;
+  	        var totalCash = 17000 + dependents;
+
+         }else {}
+         //this is my total receiveable
+         var totalReceverbleCash = parseInt(totalCash);
+
+         //.push() my totalCash into my clientDetails array.
+          clientDetails.push("totalReceverbleCash");
+		/*
+
+		do {
+         //step 3 -
+
+		} while (enterClient == true);
+
+         //step 7
+        //print previously entered clients information
+        for (i=0;i<clientDetails.length;i++) {
+
+        	 console.log((clientDetails[i] + "<br/>");)
+			//document.write(clientDetails[i] + "<br/>");
+		}
+		----------------
+        //step 8
+		//last quit message
+		alert(Goodbye!);
+		var clientDetails = new Array(); //you can also do var markArr = [];
+	var contactNum = new Array();
+	var Address = new Array();
+	var numberOfDependent = new Array();
+
+//my second while loop inside an if statement
+while (repeat !== "n")
+  {
+    clientDetails.push(prompt("Enter Client Name: "));
+    contactNum.push(prompt("Enter Contact Number: "));
+    Address.push(prompt("Enter Address: "));
+    numberOfDependent.push(prompt("Enter Number of Dependents: "));
+
+    var repeat = prompt ("Do you want to enter another client: y/n");
+  }//end of second while loop 
+  console.log('clientDetails, contactNum, Address, numberOfDependent',clientDetails, contactNum, Address, numberOfDependent);
+
+		*/
+
+		
+
+	</script>
+
+</head>
+<body>
+	
+
+</body>
+</html>

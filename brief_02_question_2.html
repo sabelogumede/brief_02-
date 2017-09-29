@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question 2</title>
+
+
+<script type="text/javascript">
+//randomRange function generate a radom number between 1 - 6,
+ function randomRange(myMin, myMax) {
+  var value = Math.floor(Math.random() * (myMax - myMin + 1)) + myMin; 
+  return value;
+ }
+  
+//this is my do/while loop
+ do {
+       
+    //here Im calling my global variable randomeRange function and storing it in myRandom variable;
+    var myRandom = randomRange(1, 6);
+
+    //prompts the user to enter a number and store it in the "var num"
+    var num = prompt("Guess a number between 1 - 6");
+
+    //if statment checks if the entered num value is not the same as "myRandom" number
+    //here the "num" string is converted in to an interger using parseInt() method.
+     if (parseInt(num) !== myRandom) {
+  	alert("Sorry, correct number was " + myRandom + " try again!");
+  }else {
+  	alert("Wow good Guess, Congradulations!");
+  }
+//would you like to try or Quite confirmation prompt
+ var tryOrQuite = confirm("would you like to try again?");
+
+    }while (tryOrQuite == true);
+     //if the user chooses to quite alet goodbye!
+     alert("goodbye!!");
+
+
+ </script>   
+
+</head>
+<body>
+
+
+
+
+</body>
+</html>

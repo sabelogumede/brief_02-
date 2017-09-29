@@ -1,0 +1,5 @@
+Question 1
+
+(a) Output is 12
+(b) Output is Object
+(c) Output is Vuyo 22
